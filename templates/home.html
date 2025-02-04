@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PillPoint - Green Medicine Info Hub</title>
     <style>
-        /* Intro Page Styles */
+        
         #intro-page {
             position: fixed;
             top: 0;
@@ -31,12 +31,12 @@
             transform: scale(1.05);
         }
 
-        /* Hide main content initially */
+        
         body > *:not(#intro-page) {
             visibility: hidden;
         }
 
-        /* Rest of your existing CSS */
+        
         * {
             margin: 0;
             padding: 0;
@@ -50,7 +50,7 @@
             background-color: #f0f4f8; /* Light gray background */
         }
 
-        /* Header Styles */
+        
         header {
             background: #2c5f2d; /* Dark green */
             color: white;
@@ -90,14 +90,14 @@
             color: #97d8a5; /* Medium green */
         }
 
-        /* Main Content */
+        
         main {
             max-width: 1200px;
             margin: 6rem auto 2rem;
             padding: 0 1rem;
         }
 
-        /* Hero Section */
+    
         .hero {
             text-align: center;
             padding: 4rem 0;
@@ -106,7 +106,7 @@
             border-radius: 8px;
         }
 
-        /* Features Grid */
+        
         .features {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -128,7 +128,7 @@
             box-shadow: 0 4px 10px rgba(46, 125, 50, 0.2);
         }
 
-        /* Sidebar */
+    
         .sidebar {
             background: #e8f5e9; /* Pale green */
             padding: 2rem;
@@ -136,7 +136,7 @@
             border: 1px solid #a5d6a7; /* Medium green border */
         }
 
-        /* Footer */
+
         footer {
             background: #1a4314; /* Dark forest green */
             color: #e0f0e1; /* Off-white green */
@@ -170,7 +170,7 @@
             color: #97d8a5; /* Medium green */
         }
 
-        /* Responsive Design */
+        
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
@@ -187,15 +187,17 @@
     </style>
 </head>
 <body>
-    <!-- Intro Page -->
+
     <div id="intro-page">
-        <img src="C:/Users/HP/Desktop/code/devjam" alt="PillPoint Intro" onclick="slideUp()">
+        <img src="images\pillpoint intro.png" alt="PillPoint Intro" onclick="slideUp()">
     </div>
 
-    <!-- Rest of your HTML content -->
+
     <header>
         <nav>
-            <div class="logo">PillPoint</div>
+            <div class="logo">
+                <img src="images\pillpoint logo.png" alt="PillPoint Logo">
+            </div>
             <div class="nav-links">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
@@ -204,6 +206,28 @@
             </div>
         </nav>
     </header>
+    
+    <style>
+        .logo img {
+            height: 80px; /* Adjust as needed */
+            width: auto;
+            max-width: 200px;
+        }
+    
+        .logo {
+            display: flex;
+            align-items: center; /* Center logo vertically */
+        }
+    
+        @media (max-width: 768px) {
+            .logo img {
+                height: 60px;
+                max-width: 150px;
+            }
+        }
+    </style>
+    
+    
 
     <main>
         <section class="hero">
@@ -259,12 +283,11 @@
             const introPage = document.getElementById('intro-page');
             introPage.style.transform = 'translateY(-100%)';
             
-            // Show main content after animation
             setTimeout(() => {
                 document.querySelectorAll('body > *:not(#intro-page)').forEach(element => {
                     element.style.visibility = 'visible';
                 });
-            }, 800); // Match this with your transition duration
+            }, 800); 
         }
     </script>
 </body>
