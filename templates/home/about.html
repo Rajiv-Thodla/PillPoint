@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About PillPoint</title>
+    <style>
+        /* Reuse the existing styles from your main page */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f0f4f8;
+        }
+
+        header {
+            background: #2c5f2d;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo img {
+            height: 80px;
+            width: auto;
+            max-width: 200px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: #e0f0e1;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #97d8a5;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 6rem auto 2rem;
+            padding: 0 1rem;
+        }
+
+        .about-section {
+            background: #e8f5e9;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .about-section h1 {
+            color: #333;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+
+        .about-section p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .team-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .team-member {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .team-member:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(46, 125, 50, 0.2);
+        }
+
+        .team-member img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            border: 4px solid #2c5f2d;
+            transition: transform 0.3s;
+        }
+
+        .team-member:hover img {
+            transform: scale(1.1);
+        }
+
+        .team-member h3 {
+            color: #2c5f2d;
+            margin-bottom: 0.5rem;
+            font-size: 1.5rem;
+        }
+
+        .team-member p {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        .team-member a {
+            color: #2c5f2d;
+            text-decoration: none;
+            margin: 0 0.5rem;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        .team-member a:hover {
+            color: #1a4314;
+            text-decoration: underline;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images\pillpoint logo.png" alt="PillPoint Logo">
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-section">
+            <h1>About PillPoint</h1>
+            <p>PillPoint is a green medicine information hub dedicated to providing sustainable and eco-friendly knowledge about pills and healthcare. Our mission is to promote a smarter and healthier planet through informed choices and responsible practices.</p>
+        </section>
+
+        <section class="team-section">
+            
+            <div class="team-member">
+                <img src="images/rajiv.jpg" alt="Rajiv">
+                <h3>Rajiv</h3>
+                <p>Backend Developer</p>
+                <a href="https://github.com/rajiv" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/rajiv" target="_blank">LinkedIn</a>
+            </div>
+            <div class="team-member">
+                <img src="images/saad.jpg" alt="Saad">
+                <h3>Saad</h3>
+                <p>Frontend Developer</p>
+                <a href="https://github.com/saad" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/saad" target="_blank">LinkedIn</a>
+            </div>
+            <div class="team-member">
+                <img src="images/rohit.jpg" alt="Rohit">
+                <h3>Rohit</h3>
+                <p>Backend Developer</p>
+                <a href="https://github.com/rohit" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/rohit" target="_blank">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
