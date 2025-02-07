@@ -6,13 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="8416c937-40ee-4277-98db-457386dd5025" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extra/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extra/Untitled (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extra/Untitled (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extra/Untitled (3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extra/pillpoint.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extra/pillpoint2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PillPoint-homepage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PillPoint/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PillPoint/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PillPoint/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PillPoint/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pillpoint intro.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/pillpoint intro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/import_shit.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/import.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pillpoint intro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pillpoint logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,18 +47,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.import_shit.executor": "Debug",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Coding/CODES/Codes/DjangoProject/templates",
+    "last_opened_file_path": "D:/Coding/CODES/Codes/DjangoProject/import_shit.py",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "aDefault",
     "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
@@ -64,13 +71,37 @@
       <recent name="D:\Coding\CODES\Codes\DjangoProject\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\CODES\Codes\DjangoProject\templates\home" />
+      <recent name="D:\Coding\CODES\Codes\DjangoProject\static\image" />
       <recent name="D:\Coding\CODES\Codes\DjangoProject\image" />
       <recent name="D:\Coding\CODES\Codes\DjangoProject\templates" />
       <recent name="D:\Coding\CODES\Codes\DjangoProject\Extra" />
-      <recent name="D:\Coding\CODES\Codes\DjangoProject" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.import_shit">
+    <configuration name="import" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DjangoProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Coding\CODES\Codes\DjangoProject\import.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="DjangoProject" type="Python.DjangoServer" factoryName="Django server">
       <module name="DjangoProject" />
       <option name="ENV_FILES" value="" />
@@ -95,6 +126,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.import_shit" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -114,11 +150,18 @@
       <updated>1738581776861</updated>
       <workItem from="1738581777905" duration="8590000" />
       <workItem from="1738592885297" duration="1696000" />
-      <workItem from="1738674031196" duration="842000" />
+      <workItem from="1738674031196" duration="7298000" />
+      <workItem from="1738685615061" duration="467000" />
+      <workItem from="1738775781718" duration="230000" />
+      <workItem from="1738956816735" duration="2986000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/import_shit_py$import.coverage" NAME="import Coverage Results" MODIFIED="1738959609187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/import_shit_py$import_shit.coverage" NAME="import_shit Coverage Results" MODIFIED="1738686012235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

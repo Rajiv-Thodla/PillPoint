@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% load static %}
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PillPoint - Green Medicine Info Hub</title>
     <style>
-        
+
         #intro-page {
             position: fixed;
             top: 0;
@@ -31,12 +33,12 @@
             transform: scale(1.05);
         }
 
-        
+
         body > *:not(#intro-page) {
             visibility: hidden;
         }
 
-        
+
         * {
             margin: 0;
             padding: 0;
@@ -50,7 +52,7 @@
             background-color: #f0f4f8; /* Light gray background */
         }
 
-        
+
         header {
             background: #2c5f2d; /* Dark green */
             color: white;
@@ -90,14 +92,14 @@
             color: #97d8a5; /* Medium green */
         }
 
-        
+
         main {
             max-width: 1200px;
             margin: 6rem auto 2rem;
             padding: 0 1rem;
         }
 
-    
+
         .hero {
             text-align: center;
             padding: 4rem 0;
@@ -106,7 +108,7 @@
             border-radius: 8px;
         }
 
-        
+
         .features {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -128,7 +130,7 @@
             box-shadow: 0 4px 10px rgba(46, 125, 50, 0.2);
         }
 
-    
+
         .sidebar {
             background: #e8f5e9; /* Pale green */
             padding: 2rem;
@@ -170,7 +172,7 @@
             color: #97d8a5; /* Medium green */
         }
 
-        
+
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
@@ -189,14 +191,14 @@
 <body>
 
     <div id="intro-page">
-        <img src="images\pillpoint intro.png" alt="PillPoint Intro" onclick="slideUp()">
+        <img src="{% static 'images/pillpoint intro.png' %}" alt="PillPoint Intro" onclick="slideUp()">
     </div>
 
 
     <header>
         <nav>
             <div class="logo">
-                <img src="images\pillpoint logo.png" alt="PillPoint Logo">
+                <img src="{% static 'images/pillpoint intro.png' %}" alt="PillPoint Logo">
             </div>
             <div class="nav-links">
                 <a href="#home">Home</a>
@@ -206,19 +208,19 @@
             </div>
         </nav>
     </header>
-    
+
     <style>
         .logo img {
             height: 80px; /* Adjust as needed */
             width: auto;
             max-width: 200px;
         }
-    
+
         .logo {
             display: flex;
             align-items: center; /* Center logo vertically */
         }
-    
+
         @media (max-width: 768px) {
             .logo img {
                 height: 60px;
@@ -226,8 +228,8 @@
             }
         }
     </style>
-    
-    
+
+
 
     <main>
         <section class="hero">
@@ -282,12 +284,12 @@
         function slideUp() {
             const introPage = document.getElementById('intro-page');
             introPage.style.transform = 'translateY(-100%)';
-            
+
             setTimeout(() => {
                 document.querySelectorAll('body > *:not(#intro-page)').forEach(element => {
                     element.style.visibility = 'visible';
                 });
-            }, 800); 
+            }, 800);
         }
     </script>
 </body>
