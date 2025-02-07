@@ -43,7 +43,7 @@
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "frontend-updates",
     "last_opened_file_path": "G:/db",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -142,7 +142,7 @@
       <workItem from="1738674031196" duration="7298000" />
       <workItem from="1738685615061" duration="467000" />
       <workItem from="1738775781718" duration="230000" />
-      <workItem from="1738956816735" duration="4187000" />
+      <workItem from="1738956816735" duration="4868000" />
     </task>
     <servers />
   </component>
