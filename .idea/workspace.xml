@@ -6,17 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8416c937-40ee-4277-98db-457386dd5025" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PillPoint-homepage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PillPoint/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PillPoint/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PillPoint/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PillPoint/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pillpoint intro.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/pillpoint intro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/import_shit.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/import.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pillpoint intro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pillpoint logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +44,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Coding/CODES/Codes/DjangoProject/import_shit.py",
+    "last_opened_file_path": "G:/db",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,11 +60,11 @@
       <recent name="D:\Coding\CODES\Codes\DjangoProject\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\db" />
       <recent name="D:\Coding\CODES\Codes\DjangoProject\templates\home" />
       <recent name="D:\Coding\CODES\Codes\DjangoProject\static\image" />
       <recent name="D:\Coding\CODES\Codes\DjangoProject\image" />
       <recent name="D:\Coding\CODES\Codes\DjangoProject\templates" />
-      <recent name="D:\Coding\CODES\Codes\DjangoProject\Extra" />
     </key>
   </component>
   <component name="RunManager" selected="Python.import_shit">
@@ -153,7 +142,7 @@
       <workItem from="1738674031196" duration="7298000" />
       <workItem from="1738685615061" duration="467000" />
       <workItem from="1738775781718" duration="230000" />
-      <workItem from="1738956816735" duration="2986000" />
+      <workItem from="1738956816735" duration="4187000" />
     </task>
     <servers />
   </component>
