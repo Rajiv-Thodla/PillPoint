@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     {% load static %}
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PillPoint - Green Medicine Info Hub</title>
@@ -106,6 +105,7 @@
             margin-bottom: 2rem;
             background: #e8f5e9; /* Pale green */
             border-radius: 8px;
+            font-size: 1.5rem;
         }
 
 
@@ -198,13 +198,12 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="{% static 'images/pillpoint intro.png' %}" alt="PillPoint Logo">
+                <img src="{% static 'images/pillpoint logo.png' %}" alt="PillPoint Logo">
             </div>
             <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#contact">Contact</a>
+                <a href="{% url 'home' %}">Home</a>
+                <a href="{% url 'about' %}">About</a>
+                <a href="{% url 'contact' %}">Contact</a>
             </div>
         </nav>
     </header>
@@ -234,7 +233,7 @@
     <main>
         <section class="hero">
             <h1>Welcome to PillPoint</h1>
-            <p>Sustainable knowledge for a greener future</p>
+            <p>Trusted medicine facts, simplified for safe choices.</p>
         </section>
 
         <div class="features">
@@ -245,12 +244,12 @@
 
             <article class="feature-card">
                 <h2 style="color: #2c5f2d;">Expert Articles</h2>
-                <p>Written and reviewed by medical professionals.</p>
+                <p>Read verified health articles from trusted medical experts.</p>
             </article>
 
             <article class="feature-card">
                 <h2 style="color: #2c5f2d;">Resources</h2>
-                <p>Access valuable information on pills and medicine.</p>
+                <p>Comprehensive guide to medications and health solutions..</p>
             </article>
         </div>
     </main>
@@ -265,8 +264,8 @@
             <div class="footer-section">
                 <h3>Policies</h3>
                 <ul>
-                    <li><a href="#privacy">Green Privacy Policy</a></li>
-                    <li><a href="#terms">Sustainability Terms</a></li>
+                    <li><a href="#privacy">Your Privacy Matters – Read Our Policy</a></li>
+                    <li><a href="#terms">Transparency & Trust: Our Terms of Service</a></li>
                 </ul>
             </div>
             <div class="footer-section">
