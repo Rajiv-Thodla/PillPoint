@@ -51,6 +51,6 @@ Regular updates to maintain accuracy and reliability.
 
 Project Team - BrokeDevs
 
-Rajiv Thodla – Backend Development (Team Leader)
-Mohamed Saad – Frontend Development
-Thanikonda Rohith – Backend Development
+Rajiv Thodla – Backend Development (Team Leader)  
+Mohamed Saad – Frontend Development    
+Thanikonda Rohith – Backend Development   
